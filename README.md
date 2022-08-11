@@ -6,7 +6,7 @@ PROJECT-II
 
  
 
-Technologies Used - Docker, AWS-EC2, Kubernetes, Git & Github
+Technologies Used - Kubernetes, Docker, AWS-EC2, Git & Github
 
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
