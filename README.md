@@ -121,4 +121,39 @@ All Steps in details with Commands:-
           replicas: 2
           selectors:
                 matchExpressions:
+                    - {key: myname. operator: In, values: [tech, technical, coder]}
+                    - {key: env, operator: NotIn, values: [production]}
+          template:
+                metadata:
+                    name: testpod1
+                    labels:
+                       myname: programmer
+                spec:
+                  containers:
+                    - name: c00
+                      image: ubuntu
+                      command:["/bin/bash", "-c", "while true; do echo it is a program; sleep5 ; done'"] 
+                      
+- Execute the YAML file
+
+       [root@ip--] # kubectl apply -f myrs.yml
+       
+- Check replica set - It will show how many pod run in the replica set
+
+       [root@ip--] # kubectl get rs
+       
+- Check pods
+
+       [root@ip--] # kubectl get pods
+       
+- Increase or Decrease pod mannually according to the requirent 
+
+       [root@ip--] # kubectl scale --replicas=8 rs/myrs
+       
+- Check the pod again and it will show the 8 pods
+
+       [root@ip--] # kubectl get pods
+       
+*Done*
+                     
   
