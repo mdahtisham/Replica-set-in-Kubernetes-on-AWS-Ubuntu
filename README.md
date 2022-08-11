@@ -106,3 +106,19 @@ All Steps in details with Commands:-
 - Install conntrack
 
       [root@ip--] # apt install conntrack
+      
+- Start the minikube 
+
+      [root@ip--] # minikube start --vm-driver=none
+      
+- Create the YAML file
+
+      kind: ReplicaSet
+      apiVersion: apps/v1
+      metadata:
+          name: myrs
+      spec:
+          replicas: 2
+          selectors:
+                matchExpressions:
+  
