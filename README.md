@@ -43,7 +43,7 @@ All Steps in details with Commands:-
 
       Ubuntu
       
-- Coose an Instance Type
+- Choose an Instance Type
       
       t.2 medium  -- 2vCPU required
       
