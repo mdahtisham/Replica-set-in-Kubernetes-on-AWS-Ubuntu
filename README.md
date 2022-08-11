@@ -22,7 +22,7 @@ Step :-
 
 4.Create the YAML file and write the code
 
-5.Execute the File
+5.Execute the YAML File
 
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -90,3 +90,19 @@ All Steps in details with Commands:-
       [root@ip--] # apt-get update -y
       
 - Install the Docker 
+
+      [root@ip--] # apt install docker -y
+      
+- Kubernetes -
+ 
+- Install Kubectl 
+
+      [root@ip--] # curl -LO https://storage.googleapis.com/kubernetes-release/release/$(curl -s https://storage.googleapis.com/kubernetes-release/release/stable.txt)/bin/linux/amd64/kubectl && chmod +x ./kubectl && sudo mv ./kubectl /usr/local/bin/kubectl
+
+- Install Minikube
+
+      [root@ip--] # curl -Lo minikube https://storage.googleapis.com/minikube/releases/latest/minikube-linux-amd64 && chmod +x minikube && sudo mv minikube /usr/local/bin/
+
+- Install conntrack
+
+      [root@ip--] # apt install conntrack
