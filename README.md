@@ -4,7 +4,7 @@ PROJECT-II
 
 *Replica-set-in-Kubernetes-on-AWS-Ubuntu*
 
- 
+ A Replication set is a object that enables you to easily create multiple pods then make sure that number of pods always exist
 
 Technologies Used - Kubernetes, Docker, AWS-EC2, Git & Github
 
@@ -155,5 +155,15 @@ All Steps in details with Commands:-
        [root@ip--] # kubectl get pods
        
 *Done*
+
+
+
+# Kubernetes
+
+Kubernetes is an open source container management tool which automates container scaling and load balancing
+
+It schedule runs and manages isolated container which are running on virtual/physical/cloud machines
+
+All top cloud providers support Kubernetes
                      
   
