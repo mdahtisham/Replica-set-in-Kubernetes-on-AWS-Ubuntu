@@ -4,7 +4,7 @@ PROJECT-II
 
 *Replica-set-in-Kubernetes-on-AWS-Ubuntu*
 
- A Replication set is a object that enables you to easily create multiple pods then make sure that number of pods always exist
+ In this project I created the a Replica set in Kubernetes. Replica Set ensures given number replica of pod should be running
 
 Technologies Used - Kubernetes, Docker, AWS-EC2, Git & Github
 
