@@ -1,6 +1,6 @@
 # Replica-set-in-Kubernetes-on-AWS-Ubuntu
 
-PROJECT-II
+PROJECT-III
 
 *Replica-set-in-Kubernetes-on-AWS-Ubuntu*
 
